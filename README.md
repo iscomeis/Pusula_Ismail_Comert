@@ -35,9 +35,8 @@ To make the dataset **model-ready**, the following steps were applied:
 - **Multi-label Processing**:  
   - Defined a custom function to parse columns containing multiple values (e.g., `KronikHastalik`, `Alerji`, `Tanilar`).  
   - Converted comma-separated strings into lists.  
-  - Applied `MultiLabelBinarizer` to generate binary columns for each unique value.  
-  - For allergies, created two additional features: **Allergy_Present** and **Allergy_Absent**.  
-
+  - Applied `MultiLabelBinarizer` to generate binary columns for each unique value.
+    
 ---
 
 ## 3. Modeling  

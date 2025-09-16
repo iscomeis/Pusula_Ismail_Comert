@@ -24,7 +24,8 @@ To make the dataset **model-ready**, the following steps were applied:
   *This ensured uniformity across the dataset and simplified preprocessing.*  
 
 - **Handling Missing Values**:  
-  - Filled sparse categorical gaps with `"bilinmiyor"` (unknown) or `"yok"` (none).  
+  - Filled sparse categorical gaps with `"bilinmiyor"` (unknown) or `"yok"` (none).
+  - In some cases, missing information was **imputed using duplicate patient records**, where other entries for the same patient provided the missing values.  
 
 - **Duplicate Removal**:  
   - Nearly half of the dataset contained duplicate rows.  

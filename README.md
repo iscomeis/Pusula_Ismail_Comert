@@ -1,6 +1,3 @@
-Ismail Comert
-i_comertt@hotmail.com
-
 # Predicting Treatment Duration Based on Patient Records  
 
 ## Overview
